@@ -4,7 +4,7 @@
  * @details EVERY functions should be defined in your source file, even if you could not implement it (in this case, leave a blank function body is okay). You NEED NOT modify this file, and DON'T submit this to Blackboard
  * @author gdjs2
  * @author chris
- * @date 2022-02-22
+ * @date 2022-03-01
  */
 
 #ifndef __CS205_ASSIGN_1_H__
@@ -13,7 +13,7 @@
 #include "assign1_mat.h"
 
 /// Instead of using the *magic number* 1e9 + 7 everywhere in your program, you should use this constant when you need to take a module
-const int MODULO = 1e9 + 7;
+extern const int MODULO;
 
 /**
  * Calculate power of x^n in O(log n)

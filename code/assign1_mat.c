@@ -3,7 +3,7 @@
  * @brief Provided struct and functions for SUSTech CS205 (s22) assignment 1
  * @details You NEED NOT modify this file, and DON'T submit this to Blackboard. But you can learn the code by yourself.
  * @author gdjs2
- * @date 2022-02-22
+ * @date 2022-03-01
  */
 
 
@@ -47,7 +47,7 @@ int get_by_index(matrix mat, int row, int col) {
     return *(((int *) mat.m_data) + row * mat.m_col + col);
 }
 
-extern const int MODULO;
+const int MODULO = 1e9 + 7;
 
 int scalar_multiplication(matrix mat_a, int x, matrix mat_res) {
     if (mat_res.m_row != mat_a.m_row ||
