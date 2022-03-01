@@ -1,6 +1,6 @@
 # CS205 C/C++ Program Design (S22) Assignment Grading Policy
 
-<center>Feb. 23, 2022</center>
+<center>Mar. 1, 2022</center>
 
 This is a C/C++ assignment rules, we will deduct scores according to this rule, but we will not strictly follow it all the time. In some cases, we may decide to detract more or less points based on the perceived gravity of the mistakes.[^1]
 
@@ -12,14 +12,14 @@ In C/C++ assignments, You are required to write **code and reports** and submit 
 
 | <span style="white-space:nowrap;">&emsp;&emsp;&emsp;&emsp;Standard&emsp;&emsp;&emsp;&emsp;</span> | <span style="white-space:nowrap;">&emsp;&emsp;&emsp;&emsp;Score&emsp;&emsp;&emsp;&emsp;</span> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                          Lab report                          |                              20                              |
+|                            Report                            |                              20                              |
 |             Output correctness & Error handling              |                              70                              |
 |                          Code style                          |                              10                              |
 
 ### 1.1   Notice
 
 1. We strongly recommend you to **submit your assignments before deadline**. We will **deduct 20 scores each day** if you submit assignment after deadline. If you did not submit your assignment three days after deadline. You will get 0 for your assignment.
-2. Please submit `.pdf` ﬁle for your report. If you do not submit the report or submit other types ﬁle such as `.doc` , `.docx` ,we will **deduct 10 scores** from this part.
+2. Please submit `.pdf` ﬁle for your report. If you do not submit the report,we will **deduct 20 scores**; if you submit other types ﬁle such as `.doc` , `.docx` ,we will **deduct 10 scores** from this part.
 3. Please submit all the required source code. If you do not submit source code *as specified in each assignment*, which makes your program cannot be run properly, you will be **deducted up to 80 scores**.
 4. <span style="color:red">**No plagiarism.**</span> If we ﬁnd that you have plagiarized other's code or take the code from some websites strightly without citation, you will get 0 scores for this assignment ; if we ﬁnd that you have plagiarized more than once, you will get 0 scores for this course. Suspects on both sides of the plagiarism will be punished.
 5. The scores marked for each task in the document are raw scores. Your final score is
