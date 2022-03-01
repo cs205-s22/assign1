@@ -13,16 +13,15 @@ In C/C++ assignments, You are required to write **code and reports** and submit 
 | <span style="white-space:nowrap;">&emsp;&emsp;&emsp;&emsp;Standard&emsp;&emsp;&emsp;&emsp;</span> | <span style="white-space:nowrap;">&emsp;&emsp;&emsp;&emsp;Score&emsp;&emsp;&emsp;&emsp;</span> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                          Lab report                          |                              20                              |
-|                      Output correctness                      |                              50                              |
-|                        Error handling                        |                              20                              |
+|             Output correctness & Error handling              |                              70                              |
 |                          Code style                          |                              10                              |
 
 ### 1.1   Notice
 
 1. We strongly recommend you to **submit your assignments before deadline**. We will **deduct 20 scores each day** if you submit assignment after deadline. If you did not submit your assignment three days after deadline. You will get 0 for your assignment.
-2. Please submit `.pdf` ﬁle for your report. If you do not submit the report or submit other types ﬁle such as `.doc` , `.docx` ,we will **deduct 10 scores**.
-3. Please submit all your source code. If you do not submit all your source code *as specified in each assignment*, that makes your TAs could not run your program properly, you will be **deducted up to 80 scores**.
-4. <span style="color:red">**No plagiarism.**</span> If we ﬁnd that you have plagiarized other's code or take the code from some websites strightly, you will get 0 scores for the assignment ; if we ﬁnd that you have plagiarized more than once, you will get 0 scores for the course. By the way, because we can't identify who copied whose code, if we ﬁnd that two students' code is similar, both of them will be punished.
+2. Please submit `.pdf` ﬁle for your report. If you do not submit the report or submit other types ﬁle such as `.doc` , `.docx` ,we will **deduct 10 scores** from this part.
+3. Please submit all the required source code. If you do not submit source code *as specified in each assignment*, which makes your program cannot be run properly, you will be **deducted up to 80 scores**.
+4. <span style="color:red">**No plagiarism.**</span> If we ﬁnd that you have plagiarized other's code or take the code from some websites strightly without citation, you will get 0 scores for this assignment ; if we ﬁnd that you have plagiarized more than once, you will get 0 scores for this course. Suspects on both sides of the plagiarism will be punished.
 5. The scores marked for each task in the document are raw scores. Your final score is
 $$
 \min(\Sigma_{task\text{ }}score * 0.7 + score_{report} + score_{code\text{ }style}, 100)
@@ -35,26 +34,26 @@ $$
 
 ### 2.1   Compile and Run
 
-1. Please specify your develop environment *especially when you are using some platform-dependent APIs* (e.g. `windows.h`). TA will try his best to run your code. If you do not specify the develop environment you are using, `-1` for each error.
+1. Please specify your develop environment *especially when you are using some platform-dependent APIs* (e.g. `windows.h`). TA will try his best to run your code.
 
-   > 1. Please include this in both your **report** and the **bb comment**.
-   > 1. For Windows users, if you are **not** using WSL, you may using `MSVC` / `mingw`;  for WSL / Linus users, you may using `gcc` / `g++`;  for macOS users, you may using `Apple clang` by default. If you are not sure about this, you may contact SAs.
+   > 1. Please include all the special of compilation environment like **compilers**, **libc** or **operating system** in your **report**.
+   > 1. For Windows users, if you are **not** using WSL, you may using `MSVC` / `mingw`;  for WSL / Linus users, you may using `gcc` / `g++`;  for macOS users, you may using `Apple clang + LLVM` by default. If you are not sure about this, you may contact SAs.
    > 2. We will use `C++20` or `C17` standard to run your code. If you use a newer standard, like `C++23`, please also specify that.
 
-2. If your code doesn't compile, we will deduct `10` scores.
-3. If your code doesn't run , we will deduct `5` scores.
+2. A program that does not compile will not get any points.
 
-### 2.2   Output correctness <span style="color:red">[TODO]</span>
+### 2.2   Output correctness
 
-1. We will have multiple test cases. For each task, the score you get is 
-1. 
+1. We will use some of the test cases to test the correctness of your program.
+2. Each test case value the same score.
+3. We will provide some of the test cases to you, making sure that you can eventually get scores (~50-60% in code part) from these test cases as long as you spend enough time in the assignment.
 
-### 2.3   Error handling <span style="color:red">[FIXME]</span>
+### 2.3   Error handling
 
-1. Please make sure your code will not crash if the input is incorrect. Your code should give some notice when the input is incorrect (if not specified in the documentation, output some text in `stderr` that explains the cause of the error). Pay attention to input range and type.
-1. If any **memory leak** is found, your score of the `Error handling` part will be deducted based on the perceived gravity of the mistakes.
-1. If there are scoring rules for some tasks in the assignment document, the document will prevail.
-
+1. Please make sure your code will not crash if the input is incorrect. Your code should give some notice when the input is incorrect. All the required error handling will be noticed in the assignment document.
+2. We will use some of the test cases to test the error handling of your program.
+3. If any **memory leak** is found, your score of the `code` part will be deducted based on the perceived gravity of the mistakes.
+4. If there are scoring rules for some tasks in the assignment document, the document will prevail.
 
 
 ### 2.4   Code style

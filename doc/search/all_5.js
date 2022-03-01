@@ -6,5 +6,5 @@ var searchData=
   ['matrix_3',['matrix',['../structmatrix.html',1,'matrix'],['../assign1__mat_8h.html#afd84c975757d75768fbbe11e7f67de27',1,'matrix():&#160;assign1_mat.h']]],
   ['matrix_5faddition_4',['matrix_addition',['../assign1_8h.html#ab95a36581779e80672d7c41cdf949898',1,'assign1.h']]],
   ['matrix_5fmultiplication_5',['matrix_multiplication',['../assign1_8h.html#a01b35f764835f72e0612195baaff7c49',1,'assign1.h']]],
-  ['modulo_6',['MODULO',['../assign1_8h.html#ab31f7bae7867b43a70f2649e9c423500',1,'MODULO():&#160;assign1.h'],['../assign1__mat_8c.html#ab31f7bae7867b43a70f2649e9c423500',1,'MODULO():&#160;assign1.h']]]
+  ['modulo_6',['MODULO',['../assign1_8h.html#ab31f7bae7867b43a70f2649e9c423500',1,'MODULO():&#160;assign1_mat.c'],['../assign1__mat_8c.html#ab31f7bae7867b43a70f2649e9c423500',1,'MODULO():&#160;assign1_mat.c']]]
 ];
