@@ -1,6 +1,6 @@
 # CS205 C/C++ Program Design Assignment 1
 
-Author: gdjs2, chris  
+Author: gdjs2, chris, oierVICTOR  
 Semester: 2022 Fall
 
 ## Introduction
@@ -71,8 +71,8 @@ Function quick_power_non_recursion(x, n) -> Integer:
 	power_factor <- x;
 	WHILE n is not 0:
 		IF n is odd:
-			answer = answer * power_factor;
-		power_factor = power_factor * power_factor;
+			answer <- answer * power_factor;
+		power_factor <- power_factor * power_factor;
 		n = floor(n/2);
 ```
 
@@ -165,7 +165,8 @@ f_{n-1}
 f_{n}\\
 f_{n-1}
 \end{bmatrix}$. We successfully got $f_{n}$ and the vector which can be used to calculate the next item $f_{n+1}$.
-4. We can do the multiplication between the first matrix and the vector we got from step 3:$\begin{bmatrix}
+4. We can do the multiplication between the first matrix and the vector we got from step 3:
+$$\begin{bmatrix}
 1 & 1\\
 1 & 0\\
 \end{bmatrix}
@@ -183,7 +184,7 @@ f_{n}
 \begin{bmatrix}
 f_{n+1}\\
 f_{n}
-\end{bmatrix}$
+\end{bmatrix}$$
 5. If we put the initial value $f_0$ and $f_1$ into the vector and do the matrix multiplication:  
 $$
 \begin{bmatrix}
@@ -201,6 +202,7 @@ f_2=1\\
 f_1=1\\
 \end{bmatrix}
 $$
+6. Because the matrix multiplication satisfies the law of association: 
 $$
 \begin{bmatrix}
 1 & 1\\
@@ -242,7 +244,9 @@ f_3=2\\
 f_2=1\\
 \end{bmatrix}
 $$
-6. Finally, we got $\begin{bmatrix}
+7. Finally, we got:
+$$
+\begin{bmatrix}
 f_3\\
 f_2\\
 \end{bmatrix}
@@ -255,10 +259,12 @@ f_2\\
 \begin{bmatrix}
 f_1\\
 f_0\\
-\end{bmatrix}$
-7. It is easy to find: $\begin{bmatrix}
+\end{bmatrix}
+$$
+8. It is easy to find: 
+$$\begin{bmatrix}
 f_n\\
-f_n-1\\
+f_{n-1}\\
 \end{bmatrix}
 =
 \begin{bmatrix}
@@ -269,7 +275,8 @@ f_n-1\\
 \begin{bmatrix}
 f_1\\
 f_0\\
-\end{bmatrix}$
+\end{bmatrix}
+$$
 
 We will focus on how to calculate the exponentiation of a matrix like $\begin{bmatrix}
 1 & 1\\
